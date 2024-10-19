@@ -11,6 +11,9 @@ body {
     
     
 }
+label{
+    font-weight: bold;
+}
 
 .app-container {
     width: 100%;
@@ -36,7 +39,10 @@ body {
 }
 
 #active-timers {
-    margin-top: 30px;
+    
+    justify-content: center;
+    margin-left: 50px;
+
 }
 
 .timer-display {
@@ -65,12 +71,29 @@ body {
 h1{
     padding-bottom: 20px;
 }
+.timer{
+    border-radius: 32px;
+    width: f100px;
+    background-color: maroon;
+   
+}
 #hours{
-    background-color: #1c1c1e;
+    background-color: #858589;
+    width: 60px;
 }
 #minutes{
-    background-color: #1c1c1e;
+    background-color: #858589;
+    width: 60px;
 }
 #seconds{
-    background-color: #1c1c1e;
+    background-color: #858589;
+    width: 60px;
+}
+#set-timer{
+    border-radius: 20px;
+    width: 70px;
+    background-color: #80ff00;
+    border: #80ff00;
+    height: 40px;
+    font-weight: bold;
 }
